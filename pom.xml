@@ -23,16 +23,9 @@
 	</dependencies>
 
 	<build>
+		<sourceDirectory>/home/ansible/practice/src</sourceDirectory>
+		<targetDirectory>/home/ansible/practice/target</targetDirectory>
 		<plugins>
-		         <plugin>
-				 <groupId>org.apache.maven.plugin</groupId>
-				 <artifactId>maven-war-plugin</artifactId>
-				 <version>3.1</version>
-				 <configuration>
-					 <sourceDirectory>/home/ansible/practice/src</sourceDirectory>
-					 <outputDirectory>/home/ansible/practice/target</outputDirectory>
-				 </configuration>
-			</plugin>	
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
