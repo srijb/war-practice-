@@ -23,6 +23,8 @@
 	</dependencies>
 
 	<build>
+		<sourceDirectory>/opt/app/src</sourceDirectory>
+		<outputDirectory>/opt/app/src/target</outputDirectory>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
