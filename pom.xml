@@ -23,8 +23,8 @@
 	</dependencies>
 
 	<build>
-		<sourceDirectory>/opt/app/src</sourceDirectory>
-		<outputDirectory>/opt/app/src/target</outputDirectory>
+		<sourceDirectory>/home/ansible/practice/src</sourceDirectory>
+		<outputDirectory>/home/ansible/practice/target</outputDirectory>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
