@@ -59,4 +59,14 @@
 			</plugin>
 		</plugins>
 	</build>
+	<distributionManagement>
+	<snapshotRepository>
+		<id>deployment</id>
+		<url>http://35.231.144.139:8081/repository/Mavenpracticesnapshot/</url>
+	</snapshotRepository>
+	<repository>
+		<id>deployment</id>
+		<url>http://35.231.144.139:8081/repository/Mavenpractice/</url>
+	</repository>
+</distributionManagement>
 </project>
