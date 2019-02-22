@@ -24,7 +24,7 @@
 
 	<build>
 		<sourceDirectory>/home/ansible/practice/src</sourceDirectory>
-		<targetDirectory>/home/ansible/practice/target</targetDirectory>
+		<directory>/home/ansible/practice/target</directory>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
