@@ -62,11 +62,11 @@
 	<distributionManagement>
 	<snapshotRepository>
 		<id>deployment</id>
-		<url>http://35.231.144.139:8081/repository/Mavenpracticesnapshot/</url>
+		<url>http://35.231.131.144:8081/repository/Mavenpracticesnapshot/</url>
 	</snapshotRepository>
 	<repository>
 		<id>deployment</id>
-		<url>http://35.231.144.139:8081/repository/Mavenpractice/</url>
+		<url>http://35.231.131.144:8081/repository/Mavenpractice/</url>
 	</repository>
 </distributionManagement>
 </project>
